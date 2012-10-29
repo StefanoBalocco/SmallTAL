@@ -13,6 +13,9 @@ into php code.
 The template engine isn't an html parser/beautifier, so won't correct your
 template.
 
+It's licensed under a BSD-like license.
+
+
 Using
 -----
 To use SmallTAL you need to do:
