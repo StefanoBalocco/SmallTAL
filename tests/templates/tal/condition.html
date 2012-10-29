@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:tal="http://xml.zope.org/namespaces/tal" xml:lang="en" lang="en"> 
+<head>
+	<title>SmallTAL - tal:condition test</title>
+</head>
+<body>
+	<p tal:condition="default">Sample text</p>
+	<p tal:condition="default" />
+	<p tal:condition="text">Sample text</p>
+	<p tal:condition="text" />
+	<p tal:condition="boolT">Sample text</p>
+	<p tal:condition="boolT" />
+	<p tal:condition="boolF">Sample text</p>
+	<p tal:condition="boolF" />
+	<p tal:condition="boolF | default">Sample text</p>
+	<p tal:condition="boolF | default" />
+	<p tal:condition="boolT | default">Sample text</p>
+	<p tal:condition="boolT | default" />
+	<p tal:condition="nothing">Sample text</p>
+	<p tal:condition="nothing" />
+</body>
+</html>

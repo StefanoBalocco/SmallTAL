@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:tal="http://xml.zope.org/namespaces/tal" xml:lang="en" lang="en"> 
+<head>
+	<title>SmallTAL - tal:replace test</title>
+</head>
+<body>
+	<p tal:replace="default">Sample text</p>
+	<p tal:replace="default" />
+	<p tal:replace="text">Sample text</p>
+	<p tal:replace="text" />
+	<p tal:replace="boolT">Sample text</p>
+	<p tal:replace="boolT" />
+	<p tal:replace="boolF">Sample text</p>
+	<p tal:replace="boolF" />
+	<p tal:replace="boolF | default">Sample text</p>
+	<p tal:replace="boolF | default" />
+	<p tal:replace="boolT | default">Sample text</p>
+	<p tal:replace="boolT | default" />
+	<p tal:replace="nothing">Sample text</p>
+	<p tal:replace="nothing" />
+</body>
+</html>

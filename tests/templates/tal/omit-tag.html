@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:tal="http://xml.zope.org/namespaces/tal" xml:lang="en" lang="en"> 
+<head>
+	<title>SmallTAL - tal:omit-tag test</title>
+</head>
+<body>
+	<p tal:omit-tag="default">Sample text</p>
+	<p tal:omit-tag="default" />
+	<p tal:omit-tag="text">Sample text</p>
+	<p tal:omit-tag="text" />
+	<p tal:omit-tag="boolT">Sample text</p>
+	<p tal:omit-tag="boolT" />
+	<p tal:omit-tag="boolF">Sample text</p>
+	<p tal:omit-tag="boolF" />
+	<p tal:omit-tag="boolF | default">Sample text</p>
+	<p tal:omit-tag="boolF | default" />
+	<p tal:omit-tag="boolT | default">Sample text</p>
+	<p tal:omit-tag="boolT | default" />
+	<p tal:omit-tag="nothing">Sample text</p>
+	<p tal:omit-tag="nothing" />
+</body>
+</html>

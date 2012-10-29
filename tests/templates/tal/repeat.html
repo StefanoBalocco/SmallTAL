@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:tal="http://xml.zope.org/namespaces/tal" xml:lang="en" lang="en"> 
+<head>
+	<title>SmallTAL - tal:repeat test</title>
+</head>
+<body>
+	<span tal:repeat="element arrayFull" tal:content="element/name" class="ArrayFull"/>
+	<div tal:repeat="element arrayFull" class="ArrayFull">
+		<span tal:content="element/name" />
+		<span tal:content="element/description" />
+	</div>
+	<span tal:repeat="element arrayEmpty" tal:content="element/name" class="ArrayEmpty"/>
+	<div tal:repeat="element arrayEmpty" class="ArrayEmpty">
+		<span tal:content="element/name" />
+		<span tal:content="element/description" />
+	</div>
+	<span tal:repeat="element defaut" tal:content="element/name" class="Default"/>
+	<div tal:repeat="element default" class="Default">
+		<span tal:content="element/name | default">Empty name</span>
+		<span tal:content="element/description | default">Empty description</span>
+	</div>
+</body>
+</html>
