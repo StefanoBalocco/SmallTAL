@@ -1,0 +1,7 @@
+{
+	"name": "stefanobalocco/SmallTAL",
+	"require":
+	{
+		"php": ">=4.3.0"
+	}
+}

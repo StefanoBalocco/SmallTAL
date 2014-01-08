@@ -124,7 +124,7 @@ if( !defined( 'SmallTAL' ) )
 				}
 				if( !file_exists( $directories[ 'cache' ] . DIRECTORY_SEPARATOR . $template . DIRECTORY_SEPARATOR . $page . '.php' ) )
 				{
-					include( 'SmallTAL.Compiler.php' );
+					require_once( 'SmallTAL.Compiler.php' );
 					SmallTAL_Compiler( $returnValue, $template, $page, $variables, $directories );
 				}
 				if( file_exists( $directories[ 'cache' ] . DIRECTORY_SEPARATOR . $template . DIRECTORY_SEPARATOR . $page . '.php' ) )

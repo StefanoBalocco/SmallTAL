@@ -29,7 +29,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-if( defined( 'SmallTAL' ) && !defined( 'SmallTAL_Compiler' ) && extension_loaded( 'pcre' ) && ( '' == ini_get( 'short_open_tag' ) ) )
+if( defined( 'SmallTAL' ) && !defined( 'SmallTAL_Compiler' ) && extension_loaded( 'pcre' ) )
 {
 	// Parse TALES path expressions
 	function SmallTAL_Compiler_ParseTALESPathExpression( $pathExpression, $attributes, $target )
