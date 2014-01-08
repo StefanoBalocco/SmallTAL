@@ -1,5 +1,25 @@
 {
-	"name": "stefanobalocco/SmallTAL",
+	"name": "stefanobalocco/smalltal",
+	"type": "library",
+	"description": "A (basic|simple) PHP implementation of the ZOPE Template Attribute Language",
+	"keywords":
+	[
+		"html5",
+		"template engine",
+		"templating",
+		"zope",
+		"tal"
+	],
+	"homepage": "http://github.com/StefanoBalocco/SmallTAL",
+	"license": "MIT-like",
+	"authors":
+	[
+		{
+			"name": "Stefano Balocco",
+			"email": "stefano.balocco@gmail.com",
+			"homepage": "http://stefano.balocco.name"
+		}
+	],
 	"require":
 	{
 		"php": ">=4.3.0"
